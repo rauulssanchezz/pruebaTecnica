@@ -77,3 +77,7 @@ console.log(decipher('Hello World!', 3));
 // Caso 9: Desplazamiento 0 (sin cifrado)
 console.log(decipher('Hello', 0)); 
 // Salida esperada: 'Hello' (no se debe modificar el mensaje)
+
+// Caso 10: 
+console.log(decipher('Hello', -30)); 
+// Salida esperada: 'Hello' (no se debe modificar el mensaje)
